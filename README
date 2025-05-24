@@ -5,7 +5,7 @@
 ## 🧱 Requisitos
 - Python 3.10+
 - Ollama funcionando y modelo descargado
-- WSL2 o Linux con entorno virtual activo
+- WSL2 o Linux con entorno virtual activo.
 
 ---
 
