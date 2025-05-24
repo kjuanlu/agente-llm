@@ -1,0 +1,22 @@
+
+
+# Agente LLM local con Ollama + LangChain + FastAPI
+
+## 🧱 Requisitos
+- Python 3.10+
+- Ollama funcionando y modelo descargado
+- WSL2 o Linux con entorno virtual activo
+
+---
+
+## 🚀 Primer uso (una sola vez)
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+#Ejectuar servidor
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+
+##Directamente con docker
+docker-compose up --build
