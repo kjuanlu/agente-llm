@@ -1,0 +1,40 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Logs y dumps
+*.log
+*.out
+*.bak
+
+# Archivos temporales
+*.swp
+*.tmp
+*~
+
+# VSCode
+.vscode/
+
+# Configuración de Python
+*.env
+.env.*
+.envrc
+
+# Archivos de pruebas / cobertura
+htmlcov/
+.coverage
+.cache/
+.tox/
+pytest_cache/
+
+# Archivos de Docker
+*.tar
