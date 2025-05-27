@@ -90,8 +90,8 @@ Envía un prompt al modelo LLM.
 
 ## 🧠 Modelo usado
 
-- Modelo por defecto: `deepseek-coder-v2:16b`
-- Puedes cambiarlo fácilmente en `main.py` (línea 10 aprox.)
+- Modelo por defecto: `deepseek-coder-v2:latest`
+- Puedes cambiarlo fácilmente en `main.py`
 
 ---
 
@@ -100,6 +100,28 @@ Envía un prompt al modelo LLM.
 - [ ] Añadir tests
 - [ ] Mejorar manejo de errores
 - [ ] Exponer más funcionalidades de Ollama
+
+---
+
+## 🐍 Entorno virtual perdido o ausente
+
+Si la carpeta `.venv/` no está en el proyecto (por ejemplo, al clonar desde GitHub), puedes recrearla fácilmente:
+
+### En WSL / Linux / macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### En Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 ---
 
